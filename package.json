@@ -1,0 +1,27 @@
+{
+  "name": "node_aprendendo_autenticacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivendotech/node_aprendendo_autenticacao.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vivendotech/node_aprendendo_autenticacao/issues"
+  },
+  "homepage": "https://github.com/vivendotech/node_aprendendo_autenticacao#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
