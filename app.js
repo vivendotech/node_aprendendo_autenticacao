@@ -19,6 +19,14 @@ const {
 // console.log(process)
 const app = express()
 
+// construindo nosso proprio midleware
+//ao usar om etodo use a gente adiciona esse midleware em todas as rotas do express.
+
+app.use((req, res, next)=>{
+    console.log("Oi mundo")
+    next();
+})
+
 
 const IN_PROD = NODE_ENV === "production"
 
